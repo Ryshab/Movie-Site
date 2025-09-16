@@ -1,0 +1,39 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output folders
+/dist/
+/build/
+
+# Environment variables
+.env
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# Optional npm cache
+.npm
+
+# Local test coverage reports
+/coverage/
+
+# Vite specific cache and lock files
+/vite.svg
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Misc
+*.tgz
+*.log
+
+# Ignore test snapshots
+/src/__tests__/__snapshots__/
