@@ -1,8 +1,8 @@
 # Movie Box
 
-![Favorite Movies Page](./images/favorites-page.png)  
 ![Home Page](./images/home-page.png)  
 ![Search Page](./images/search-page.png)  
+![Favorite Movies Page](./images/favorite-page.png)  
 
 A React web app for searching movies, viewing details, and managing your favorite films using The Movie Database (TMDb) API.
 
@@ -38,3 +38,56 @@ This app uses [The Movie Database API (TMDb)](https://www.themoviedb.org/documen
 ## Getting Started
 
 1. Clone this repository:
+`git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>`
+
+
+2. Install dependencies:
+`npm install`
+
+
+3. Run the development server:
+`npm run dev`
+
+
+4. Open your browser to `http://localhost:5173` to view the app.
+
+## Usage
+
+- Use the search bar on the Home page to find movies.
+- Click the heart button on movie cards to add or remove favorites.
+- Navigate to the Favorites page to view your saved movies.
+
+## Folder Structure
+src/
+components/ # Navbar, MovieCard, etc.
+pages/ # Home.js, Favorites.js
+assets/ # Images and icons
+public/
+site-icon.png # Favicon/Icon for the site
+images/
+favorites-page.png
+home-page.png
+search-page.png
+
+
+## Technologies Used
+
+- React with Vite build tool  
+- React Router for routing  
+- React Icons for iconography  
+- TMDb API for movie data  
+
+## Contributing
+
+Open to community contributions. Fork the repo, make your changes, and open a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Happy movie browsing! Feel free to contribute or open issues if you find bugs or want new features.
+
+
