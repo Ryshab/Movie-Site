@@ -8,7 +8,7 @@ function NavBar() {
       <div className="navbar-brand">
         <Link to="/" className="logo-link">
           <img src="/site-icon.png" alt="Buffering Forever Logo" className="logo-img" />
-          <span className="site-name">Buffering… Forever</span>
+          <span className="site-name">Movie Box</span>
         </Link>
       </div>
       <div className="navbar-links">
