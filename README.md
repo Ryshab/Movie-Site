@@ -1,7 +1,10 @@
 # Movie Box
 
+### Home Page
 ![Home Page](./images/home-page.png)  
+### Search
 ![Search Page](./images/search-page.png)  
+### Favorite Page
 ![Favorite Movies Page](./images/favorite-page.png)  
 
 A React web app for searching movies, viewing details, and managing your favorite films using The Movie Database (TMDb) API.
