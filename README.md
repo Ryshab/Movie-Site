@@ -87,7 +87,6 @@ cd <repo-name>`
 │   ├── pages/
 │   │   ├── Favorites.jsx
 │   │   └── Home.jsx
-│   │   └── intex.css
 │   ├── App.jsx
 │   └── main.jsx
 ├── .gitignore
