@@ -59,16 +59,38 @@ cd <repo-name>`
 - Navigate to the Favorites page to view your saved movies.
 
 ## Folder Structure
-src/
-components/ # Navbar, MovieCard, etc.
-pages/ # Home.js, Favorites.js
-assets/ # Images and icons
-public/
-site-icon.png # Favicon/Icon for the site
-images/
-favorites-page.png
-home-page.png
-search-page.png
+my-movie-app/
+├── public/
+│   ├── site-icon.png
+│   └── vite.svg
+├── services/
+│   └── api.js
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── MovieCard.jsx
+│   │   └── NavBar.jsx
+│   ├── context/
+│   │   └── MovieContext.jsx
+│   ├── css/
+│   │   ├── App.css
+│   │   ├── Favorites.css
+│   │   ├── Home.css
+│   │   ├── index.css
+│   │   ├── MovieCard.css
+│   │   └── NavBar.css
+│   ├── pages/
+│   │   ├── Favorites.jsx
+│   │   └── Home.jsx
+│   │   └── intex.css
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
+
 
 
 ## Technologies Used
