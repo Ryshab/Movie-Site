@@ -59,6 +59,7 @@ cd <repo-name>`
 - Navigate to the Favorites page to view your saved movies.
 
 ## Folder Structure
+
 ```my-movie-app/
 ├── public/
 │   ├── site-icon.png
@@ -89,7 +90,8 @@ cd <repo-name>`
 ├── .gitignore
 ├── package.json
 ├── README.md
-└── vite.config.js```
+└── vite.config.js
+```
 
 
 
